@@ -10,11 +10,17 @@ body {
 .btn-primary{
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: white;
 }
 
 /* nav styles start from here */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .nav-title {
@@ -25,6 +31,7 @@ nav {
 
 nav > ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
