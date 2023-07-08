@@ -7,7 +7,7 @@ body {
     color: #FD6E0A;
 }
 
-.btn-primary{
+.btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
@@ -15,12 +15,13 @@ body {
     font-size: 20px;
     color: white;
 }
-
 /* nav styles start from here */
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -29,7 +30,7 @@ nav {
     font-weight: 800;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     align-items: center;
 }
@@ -42,4 +43,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header styles start from here */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 500px;
+
 }
