@@ -1,9 +1,9 @@
-/* common shared styles */
+/* common shared styels start from here */
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
 
@@ -12,7 +12,7 @@ body {
     background: #FD6E0A;
 }
 
-/* nav related styles */
+/* nav styles start from here */
 nav {
     display: flex;
 }
@@ -23,16 +23,16 @@ nav {
     font-weight: 800;
 }
 
-nav > ul{
+nav > ul {
     display: flex;
 }
 
-nav li{
+nav li {
     list-style: none;
     margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
 }
