@@ -1,4 +1,4 @@
-/* common shared styels start from here */
+/* common shared styles */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -10,18 +10,17 @@ body {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    border: 0;
-    padding: 15px 35px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
     font-size: 20px;
-    color: white;
+    padding: 15px 30px;
 }
-/* nav styles start from here */
 
 nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    margin: 0px 200px;
+    align-items: center;
 }
 
 .nav-title {
@@ -43,19 +42,4 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
-}
-
-/* header styles start from here */
-.header {
-    background-color: #FFF8F3;
-}
-
-.banner{
-    padding: 30px 30px 30px 150px;
-    display: flex;
-    align-items: center;
-}
-.banner .profile-pic{
-    width: 500px;
-
 }
